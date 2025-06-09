@@ -15415,7 +15415,7 @@
 		(uuid "279b6422-f8de-4c17-8428-486b5f4153fb")
 	)
 	(gr_text "LM"
-		(at 263.4 48.7 0)
+		(at 259.6 48.7 0)
 		(layer "B.Cu")
 		(uuid "3adb2f9c-ef05-4c9d-bd32-377a797e83f5")
 		(effects
@@ -15424,11 +15424,11 @@
 				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify left bottom)
 		)
 	)
 	(gr_text "6°5"
-		(at 240.6 48.9 0)
+		(at 235.6 48.9 0)
 		(layer "B.Cu")
 		(uuid "b6ececaa-fe55-45ed-af40-fcdfa3a6de65")
 		(effects
@@ -15437,7 +15437,7 @@
 				(thickness 0.4)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify left bottom)
 		)
 	)
 	(segment
