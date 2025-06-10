@@ -4544,7 +4544,7 @@
 		)
 	)
 	(global_label "GIOP18"
-		(shape input)
+		(shape output)
 		(at 271.78 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4609,29 +4609,29 @@
 			)
 		)
 	)
-	(global_label "GIOP33"
+	(global_label "GIOP19"
 		(shape output)
-		(at 243.84 46.99 180)
+		(at 271.78 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "297577ff-06a1-41c2-a367-266c3b21db52")
+		(uuid "2475c576-c8a8-41fb-a797-b25076caf71e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 46.99 0)
+			(at 281.6595 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "GIOP22"
+	(global_label "GIOP18"
 		(shape output)
 		(at 144.78 30.48 180)
 		(fields_autoplaced yes)
@@ -4698,7 +4698,7 @@
 		)
 	)
 	(global_label "GIOP22"
-		(shape input)
+		(shape output)
 		(at 271.78 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4720,7 +4720,7 @@
 		)
 	)
 	(global_label "GIOP23"
-		(shape input)
+		(shape output)
 		(at 271.78 31.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4763,28 +4763,6 @@
 			)
 		)
 	)
-	(global_label "GIOP32"
-		(shape output)
-		(at 243.84 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a724007-635d-406c-9c41-dc453d909b8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GIOP21"
 		(shape output)
 		(at 271.78 41.91 0)
@@ -4803,28 +4781,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GIOP35"
-		(shape output)
-		(at 243.84 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66342957-9b3a-4e08-b250-5146da720389")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5005,7 +4961,7 @@
 			)
 		)
 	)
-	(global_label "GIOP35"
+	(global_label "GIOP21"
 		(shape output)
 		(at 137.16 87.63 180)
 		(fields_autoplaced yes)
@@ -5137,8 +5093,8 @@
 			)
 		)
 	)
-	(global_label "GIOP33"
-		(shape input)
+	(global_label "GIOP23"
+		(shape output)
 		(at 22.86 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5203,7 +5159,7 @@
 			)
 		)
 	)
-	(global_label "GIOP32"
+	(global_label "GIOP22"
 		(shape output)
 		(at 22.86 49.53 180)
 		(fields_autoplaced yes)
@@ -5238,28 +5194,6 @@
 		(uuid "c4e159c2-e1ce-48f7-a378-9804a06172e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.1439 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GIOP34"
-		(shape output)
-		(at 243.84 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c719b8cc-2d91-4292-9323-07f4a5c53e56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,8 +5357,8 @@
 			)
 		)
 	)
-	(global_label "GIOP18"
-		(shape input)
+	(global_label "GIOP33"
+		(shape output)
 		(at 22.86 173.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5445,7 +5379,29 @@
 			)
 		)
 	)
-	(global_label "GIOP23"
+	(global_label "GIOP33"
+		(shape output)
+		(at 243.84 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f79f487d-13a1-49b4-830f-32033489c51e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.9605 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GIOP19"
 		(shape input)
 		(at 127 34.29 180)
 		(fields_autoplaced yes)
@@ -7292,7 +7248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 64.77 38.1 0)
 			(effects
 				(font
@@ -8175,7 +8131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 64.77 162.56 0)
 			(effects
 				(font
@@ -8688,7 +8644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 179.07 76.2 0)
 			(effects
 				(font
@@ -10454,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 64.77 100.33 0)
 			(effects
 				(font
