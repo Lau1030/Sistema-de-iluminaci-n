@@ -3657,16 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 137.16 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195fdbf7-08fe-48ed-b5a4-d277514b4d68")
-	)
-	(wire
-		(pts
 			(xy 189.23 83.82) (xy 189.23 85.09)
 		)
 		(stroke
@@ -4619,28 +4609,6 @@
 			)
 		)
 	)
-	(global_label "GIOP39"
-		(shape output)
-		(at 22.86 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "246df8ce-5836-456e-a25d-5365399450e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.9805 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GIOP33"
 		(shape output)
 		(at 243.84 46.99 180)
@@ -4663,7 +4631,7 @@
 			)
 		)
 	)
-	(global_label "GIOP33"
+	(global_label "GIOP22"
 		(shape output)
 		(at 144.78 30.48 180)
 		(fields_autoplaced yes)
@@ -4729,46 +4697,46 @@
 			)
 		)
 	)
-	(global_label "GIOP34"
-		(shape output)
-		(at 135.89 87.63 180)
+	(global_label "GIOP22"
+		(shape input)
+		(at 271.78 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "45627558-b859-420b-9dbf-fedddb852aa0")
+		(uuid "3722c853-50e6-4a91-ad9f-996daebdc38b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.0105 87.63 0)
+			(at 281.6595 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "GIOP35"
-		(shape output)
-		(at 22.86 111.76 180)
+	(global_label "GIOP23"
+		(shape input)
+		(at 271.78 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "49f73a7f-efe4-4f7b-9de4-4a1df74a3459")
+		(uuid "3afc4175-5abc-4ae6-b551-22bdd2ebeab5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.9805 111.76 0)
+			(at 281.6595 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4805,9 +4773,53 @@
 			)
 			(justify right)
 		)
-		(uuid "54431587-24ca-4228-bc68-5ebadbed6a97")
+		(uuid "4a724007-635d-406c-9c41-dc453d909b8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 233.9605 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GIOP21"
+		(shape output)
+		(at 271.78 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5084ad47-fbd7-44d9-8112-9c6f27b04b83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.6595 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GIOP35"
+		(shape output)
+		(at 243.84 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66342957-9b3a-4e08-b250-5146da720389")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.9605 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,28 +4895,6 @@
 			)
 		)
 	)
-	(global_label "GIOP35"
-		(shape output)
-		(at 243.84 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72295599-5d73-4ac3-8cd8-a676140797bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "V2"
 		(shape output)
 		(at 101.6 132.08 180)
@@ -4940,28 +4930,6 @@
 		(uuid "79dedb54-c22b-4316-8372-318c7cd56270")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.5348 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GIOP34"
-		(shape output)
-		(at 243.84 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84b04174-1fc3-4282-9094-63d7e7105bdd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,6 +5001,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GIOP35"
+		(shape output)
+		(at 137.16 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89f98f7d-aa4c-47e6-89f3-e2baccc7aade")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2805 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5147,6 +5137,28 @@
 			)
 		)
 	)
+	(global_label "GIOP33"
+		(shape input)
+		(at 22.86 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b35b3906-4cb0-484a-bbc0-758ee6658f93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.9805 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COM10"
 		(shape output)
 		(at 101.6 125.73 180)
@@ -5191,6 +5203,28 @@
 			)
 		)
 	)
+	(global_label "GIOP32"
+		(shape output)
+		(at 22.86 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c35b17a9-ca1c-494e-8a95-ca4adcc697c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.9805 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COM11"
 		(shape output)
 		(at 101.6 187.96 180)
@@ -5204,6 +5238,28 @@
 		(uuid "c4e159c2-e1ce-48f7-a378-9804a06172e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.1439 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GIOP34"
+		(shape output)
+		(at 243.84 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c719b8cc-2d91-4292-9323-07f4a5c53e56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.9605 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,28 +5357,6 @@
 			)
 		)
 	)
-	(global_label "GIOP39"
-		(shape output)
-		(at 243.84 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e72ab204-9ee1-408c-a4b8-87b586e84a48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.9605 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NO3"
 		(shape input)
 		(at 97.79 154.94 90)
@@ -5411,7 +5445,7 @@
 			)
 		)
 	)
-	(global_label "GIOP32"
+	(global_label "GIOP23"
 		(shape input)
 		(at 127 34.29 180)
 		(fields_autoplaced yes)
@@ -5761,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 149.86 30.48 0)
 			(effects
 				(font
@@ -6435,6 +6469,73 @@
 			(project "Sis. de iluminacion"
 				(path "/35e6849b-df23-45b9-8841-f358e4ca5825"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29f7e586-8c57-4911-80b0-ccea1884725b")
+		(property "Reference" "#PWR031"
+			(at 278.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "635ba23f-96e2-4c37-9b2d-d15240ab2a14")
+		)
+		(instances
+			(project "Sis. de iluminacion"
+				(path "/35e6849b-df23-45b9-8841-f358e4ca5825"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10482,6 +10583,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 271.78 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e3943c-0db5-4bc9-badb-868e11e4a8ad")
+		(property "Reference" "#PWR034"
+			(at 278.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee43fb2-40f1-4a41-bf71-2105c9ed2c12")
+		)
+		(instances
+			(project "Sis. de iluminacion"
+				(path "/35e6849b-df23-45b9-8841-f358e4ca5825"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC547")
 		(at 72.39 179.07 0)
 		(unit 1)
@@ -10552,6 +10720,73 @@
 			(project "Sis. de iluminacion"
 				(path "/35e6849b-df23-45b9-8841-f358e4ca5825"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8f9d5e7-7808-45e1-98d8-aea1413d3391")
+		(property "Reference" "#PWR028"
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a98759-9e80-43f0-88e6-8a218a95dd95")
+		)
+		(instances
+			(project "Sis. de iluminacion"
+				(path "/35e6849b-df23-45b9-8841-f358e4ca5825"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
